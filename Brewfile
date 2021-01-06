@@ -8,6 +8,12 @@ brew 'coreutils'
 brew 'git'
 brew 'jq'
 
+# zsh
+brew 'zsh'
+brew 'zsh-completions'
+brew 'romkatv/powerlevel10k/powerlevel10k'
+brew 'zsh-autosuggestions'
+
 # Languages
 brew 'nvm'
 brew 'pyenv-virtualenv'
