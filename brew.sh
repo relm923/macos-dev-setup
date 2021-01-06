@@ -18,3 +18,8 @@ brew install coreutils
 
 # Bash
 brew install bash bash-completion2
+
+# Utils
+brew install \
+    git \
+    jq

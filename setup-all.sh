@@ -4,7 +4,7 @@ source ./utils.sh
 
 function setupAll() {
     ./dot-files.sh
-    # ./macos-prep.sh
+    ./macos-prep.sh
     ./brew.sh
     ./zsh.sh
 
