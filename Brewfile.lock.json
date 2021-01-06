@@ -247,6 +247,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "moom": {
+        "version": "3.2.20",
+        "options": {
+          "full_name": "moom",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -255,7 +264,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "c3da6541906d2b7251755ad3e79f2989a0fc8b8c",
+        "Homebrew/homebrew-core": "9dfb73f9d65cfbaf87336b38bf36da35f9d1a752",
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.3",
         "macOS": "11.2"
