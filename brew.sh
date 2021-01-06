@@ -23,3 +23,15 @@ brew install bash bash-completion2
 brew install \
     git \
     jq
+
+# Languages
+brew install \
+    nvm \
+    pyenv-virtualenv
+
+# rvm
+if ! [ -x "$(command -v rvm)" ]; then
+    curl -sSL https://get.rvm.io | bash -s stable --ruby
+fi
+
+brew cleanup
