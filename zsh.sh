@@ -12,9 +12,11 @@ fi
 
 chown -R relm /usr/local/share/zsh
 
-if [ -z "$ZSH" ]; then 
+if [ -z "$ZSH" ]; then
     headerSmall "Installing oh-my-zsh"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-brew install romkatv/powerlevel10k/powerlevel10k
+brew install \
+    romkatv/powerlevel10k/powerlevel10k \
+    zsh-autosuggestions

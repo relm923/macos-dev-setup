@@ -11,7 +11,7 @@ export ZSH="/Users/relm/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
