@@ -11,6 +11,7 @@ fi
 
 brew update
 brew upgrade
+brew install mas
 brew bundle
 brew cleanup
 

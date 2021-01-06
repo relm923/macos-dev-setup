@@ -29,3 +29,5 @@ cask 'postman'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
+
+mas 'Xcode', id: 497799835

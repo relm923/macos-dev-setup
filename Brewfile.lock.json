@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "feeb0d56db0485877adb5237bf1c31cf0e4c9195"
+        "revision": "b6f47ea9814a2c44f8cb8e3b74b4d93b6387e3ce"
       }
     },
     "brew": {
@@ -257,6 +257,12 @@
           }
         }
       }
+    },
+    "mas": {
+      "Xcode": {
+        "id": "497799835",
+        "version": "12.3"
+      }
     }
   },
   "system": {
@@ -264,8 +270,8 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9dfb73f9d65cfbaf87336b38bf36da35f9d1a752",
-        "CLT": "12.3.0.0.1.1607026830",
+        "Homebrew/homebrew-core": "ab89e775f02684a3a245462dc84d30f1949d3a97",
+        "CLT": "",
         "Xcode": "12.3",
         "macOS": "11.2"
       }
