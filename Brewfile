@@ -2,6 +2,7 @@ tap 'homebrew/cask'
 cask_args appdir: '/Applications'
 
 # Utils
+brew 'awscli'
 brew 'bash-completion2'
 brew 'bash'
 brew 'coreutils'
@@ -11,6 +12,7 @@ brew 'jq'
 # zsh
 brew 'zsh'
 brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
 brew 'romkatv/powerlevel10k/powerlevel10k'
 brew 'zsh-autosuggestions'
 
@@ -29,5 +31,6 @@ cask 'postman'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
+cask 'zoom'
 
 mas 'Xcode', id: 497799835
