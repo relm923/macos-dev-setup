@@ -21,9 +21,14 @@ brew 'nvm'
 brew 'pyenv-virtualenv'
 
 # Apps
-cask '1password'
+# Using Beta v7.8
+# cask '1password'
+
 cask 'alfred'
-cask 'docker'
+
+# Using https://docs.docker.com/docker-for-mac/apple-m1/
+# cask 'docker'
+
 cask 'google-chrome'
 cask 'iterm2'
 cask 'moom'
