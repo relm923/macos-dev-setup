@@ -29,6 +29,7 @@ cask 'alfred'
 # Using https://docs.docker.com/docker-for-mac/apple-m1/
 # cask 'docker'
 
+cask 'android-studio'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'moom'
