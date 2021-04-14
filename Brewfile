@@ -8,6 +8,7 @@ brew 'bash'
 brew 'coreutils'
 brew 'git'
 brew 'jq'
+brew 'watchman'
 
 # zsh
 brew 'zsh'
@@ -29,7 +30,9 @@ cask 'alfred'
 # Using https://docs.docker.com/docker-for-mac/apple-m1/
 # cask 'docker'
 
+cask 'adoptopenjdk/openjdk/adoptopenjdk8'
 cask 'android-studio'
+cask 'flipper'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'moom'
