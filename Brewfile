@@ -6,6 +6,7 @@ brew 'awscli'
 brew 'bash-completion2'
 brew 'bash'
 brew 'coreutils'
+brew 'fastlane'
 brew 'git'
 brew 'jq'
 brew 'watchman'
@@ -22,16 +23,11 @@ brew 'nvm'
 brew 'pyenv-virtualenv'
 
 # Apps
-# Using Beta v7.8
-# cask '1password'
-
-cask 'alfred'
-
-# Using https://docs.docker.com/docker-for-mac/apple-m1/
-# cask 'docker'
-
+cask '1password'
 cask 'adoptopenjdk/openjdk/adoptopenjdk8'
+cask 'alfred'
 cask 'android-studio'
+cask 'docker'
 cask 'flipper'
 cask 'google-chrome'
 cask 'iterm2'
