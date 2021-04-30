@@ -33,9 +33,11 @@ cask 'google-chrome'
 cask 'iterm2'
 cask 'moom'
 cask 'postman'
+cask 'react-native-debugger'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'zoom'
 
+mas 'Todoist', id: 585829637
 mas 'Xcode', id: 497799835
