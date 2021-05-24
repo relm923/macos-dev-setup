@@ -6,8 +6,10 @@ brew 'awscli'
 brew 'bash-completion2'
 brew 'bash'
 brew 'coreutils'
+brew 'fastlane'
 brew 'git'
 brew 'jq'
+brew 'watchman'
 
 # zsh
 brew 'zsh'
@@ -22,15 +24,20 @@ brew 'pyenv-virtualenv'
 
 # Apps
 cask '1password'
+cask 'adoptopenjdk/openjdk/adoptopenjdk8'
 cask 'alfred'
+cask 'android-studio'
 cask 'docker'
+cask 'flipper'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'moom'
 cask 'postman'
+cask 'react-native-debugger'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'zoom'
 
+mas 'Todoist', id: 585829637
 mas 'Xcode', id: 497799835

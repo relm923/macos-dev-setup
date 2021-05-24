@@ -2,13 +2,13 @@
 
 source ./utils.sh
 
-if [ "$SHELL" != "/usr/local/bin/zsh" ]; then
+if [ "$SHELL" != "$(brew --prefix)/bin/zsh" ]; then
     headerSmall "Configuring zsh"
-    grep -qxF '/usr/local/bin/zsh' /etc/shells || sudo bash -c 'echo /usr/local/bin/zsh >> /etc/shells'
-    chsh -s /usr/local/bin/zsh
+    grep -qxF  "$(brew --prefix)/bin/zsh" /etc/shells || sudo bash -c "echo $(brew --prefix)/bin/zsh >> /etc/shells"
+    chsh -s $(brew --prefix)/bin/zsh
 fi
 
-chown -R $USER /usr/local/share/zsh
+chown -R $USER $(brew --prefix)/share/zsh
 
 if [ -z "$ZSH" ]; then
     headerSmall "Installing oh-my-zsh"
