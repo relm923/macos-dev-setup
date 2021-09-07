@@ -6,9 +6,12 @@ brew 'awscli'
 brew 'bash-completion2'
 brew 'bash'
 brew 'coreutils'
+brew 'dbmate'
 brew 'fastlane'
+brew 'gh'
 brew 'git'
 brew 'jq'
+brew 'tree'
 brew 'watchman'
 
 # zsh
@@ -37,6 +40,7 @@ cask 'react-native-debugger'
 cask 'slack'
 cask 'spotify'
 cask 'visual-studio-code'
+cask 'vlc'
 cask 'zoom'
 
 mas 'Todoist', id: 585829637
